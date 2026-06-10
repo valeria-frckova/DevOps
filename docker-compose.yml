@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  web:
+    image: valeriafrckova/devops-app:v1
+    container_name: devops-app
+    ports:
+      - "80:8000"
+    restart: always
