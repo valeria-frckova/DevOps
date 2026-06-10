@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   web:
-    image: valeriafrckova/devops-app:v3
+    image: valeriafrckova/devops-app:v4
     container_name: devops-app
     ports:
       - "80:8000"
