@@ -39,4 +39,4 @@ def about():
 
 @app.route("/version")
 def version():
-    return jsonify({"version": "2.0"})
+    return jsonify({"version": "3.0"})
